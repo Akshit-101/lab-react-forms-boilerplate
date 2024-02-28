@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  background: #f4f4f4; 
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.form-container {
+  width: 360px;
+  background-color: #c8c7c7; 
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 10px;
+}body{
+  background-color: #afacacf5;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.success-message {
+  background-color: #007bff; 
+  padding: 15px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.form-input {
+  margin: 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #037ef9; 
+  background-color: #cdc3c3;
+  transition: border-color 0.3s ease; 
+}
+
+.form-input:hover {
+  border-color: #f51e32; 
+  background-color: rgb(227, 142, 142);
+}
+
+.form-input:focus {
+  outline: none; 
+  border-color: #80bdff; 
+}
+
+.error-message {
+  font-size: 14px;
+  color: #dc3545;
+  margin-bottom: 15px;
+}
+
+.form-input.error {
+  border: 2px solid #dc3545;
+}
+
+.form-input:disabled {
+  cursor: not-allowed;
+}
+
+.form-button {
+  background: #28a745; 
+  color: white;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.form-button:hover {
+  background: #218838; 
+}
+
+.form-button:disabled {
+  background: #6c757d; 
+  cursor: not-allowed;
+}
+
+.form-button:active {
+  background: #1e7e34; 
+}
+.form-button:hover {
+  background: #218838; 
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.form-button:active {
+  background: #1e7e34; 
+  transform: translateY(0); 
+  box-shadow: none; 
+}
